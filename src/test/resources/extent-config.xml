@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+    <configuration>
+        <!-- Report theme: STANDARD or DARK -->
+        <theme>STANDARD</theme>
+
+        <!-- Document title -->
+        <documentTitle>SwagLabs Automation Test Report</documentTitle>
+
+        <!-- Report name -->
+        <reportName>SwagLabs Test Execution Report</reportName>
+
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for script and stylesheets -->
+        <protocol>HTTPS</protocol>
+
+        <!-- Title of the report -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+        <!-- Custom CSS -->
+        <css>
+            .test-title {
+            font-weight: bold;
+            }
+        </css>
+
+        <!-- Custom JavaScript -->
+        <js>
+        </js>
+    </configuration>
+</extentreports>
