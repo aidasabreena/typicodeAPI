@@ -7,7 +7,6 @@ import java.util.Properties;
 public class ConfigManager {
     private static Properties properties;
     private static final String CONFIG_FILE = "config.properties";
-    private static final String EXTENT_FILE = "extent.properties";
 
     static {
         loadProperties();

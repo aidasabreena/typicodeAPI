@@ -1,7 +1,7 @@
 package com.typicode.api.cucumber.hooks;
 
 import com.typicode.api.utils.ConfigManager;
-import io.cucumber.java.After;
+
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.restassured.RestAssured;
@@ -18,6 +18,6 @@ public class BaseHooks {
         logger.setLevel(Level.INFO);
 
         RestAssured.baseURI = ConfigManager.getBaseUrl();
-        logger.info("Setup done");
+        logger.info("Setup done, starting scenario" + scenario.getName());
     }
 }
