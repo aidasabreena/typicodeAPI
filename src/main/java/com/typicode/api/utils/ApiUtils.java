@@ -10,8 +10,7 @@ public class ApiUtils {
 
     public static RequestSpecification request() {
         return RestAssured.given()
-                .baseUri(BASE_URL)
-                .header("Content-Type", "application/json");
+                .baseUri(BASE_URL);
     }
     public static Response get(String endpoint) {
         return request().when().get(endpoint);

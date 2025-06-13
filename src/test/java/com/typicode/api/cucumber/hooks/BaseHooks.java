@@ -18,6 +18,6 @@ public class BaseHooks {
         logger.setLevel(Level.INFO);
 
         RestAssured.baseURI = ConfigManager.getBaseUrl();
-        logger.info("Setup done, starting scenario" + scenario.getName());
+        logger.info("Setup done, starting scenario: " + scenario.getName());
     }
 }
